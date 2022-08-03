@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="3gM-n2-88f" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K4f-72-FT9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="bipoc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40a-pb-rYJ">
@@ -27,6 +27,7 @@
                         <viewLayoutGuide key="safeArea" id="vxR-98-oKq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UvD-vt-iiG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytb-0a-Ajr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -127,6 +128,14 @@
                                     <segue destination="PJD-Sm-5FD" kind="show" id="7rZ-dR-bFc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdy-wD-sZ6">
+                                <rect key="frame" x="40" y="448" width="334" height="104"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2022-08-02 at 2.56.34 PM"/>
+                                <connections>
+                                    <segue destination="3gM-n2-88f" kind="show" id="zcV-6q-2wW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -164,6 +173,7 @@
     </scenes>
     <resources>
         <image name="Screen Shot 2022-08-02 at 2.48.45 PM" width="402" height="132"/>
+        <image name="Screen Shot 2022-08-02 at 2.56.34 PM" width="896" height="300"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
