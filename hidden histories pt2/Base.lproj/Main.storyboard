@@ -38,11 +38,11 @@
             <objects>
                 <viewController id="Wlf-uF-QfV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eZm-O3-CvC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcF-VO-QW5">
-                                <rect key="frame" x="172" y="229" width="67" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WG0-Vv-S7B">
+                                <rect key="frame" x="141" y="255" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -52,6 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="0fC-Bz-xZ0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mcs-Lz-iaq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWh-jp-ezM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,11 +63,11 @@
             <objects>
                 <viewController id="6Nm-e0-8DC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2qi-Fk-shp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WG0-Vv-S7B">
-                                <rect key="frame" x="187" y="377" width="76" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcF-VO-QW5">
+                                <rect key="frame" x="187" y="193" width="67" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -76,6 +77,7 @@
                         <viewLayoutGuide key="safeArea" id="Rre-n7-U6z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="N16-t7-xs0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gih-d6-JrI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +88,7 @@
             <objects>
                 <viewController id="n8d-Tj-eWG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dZc-AV-nSh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="women in stem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBl-mk-EjN">
@@ -100,6 +102,7 @@
                         <viewLayoutGuide key="safeArea" id="JgY-KT-hW4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nh0-7c-7zy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sVI-8D-KnK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -133,6 +136,9 @@
                                 <rect key="frame" x="89" y="525" width="236" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Screen Shot 2022-08-02 at 2.58.10 PM"/>
+                                <connections>
+                                    <segue destination="n8d-Tj-eWG" kind="show" id="KGw-Fx-kYU"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2022-08-03 at 10.34.48 AM" translatesAutoresizingMaskIntoConstraints="NO" id="mlL-su-Pqb">
                                 <rect key="frame" x="-3" y="617" width="421" height="222"/>
@@ -142,6 +148,22 @@
                                 <rect key="frame" x="20" y="72" width="374" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssy-gZ-7vg">
+                                <rect key="frame" x="20" y="773" width="176" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2022-08-03 at 10.34.20 AM"/>
+                                <connections>
+                                    <segue destination="Wlf-uF-QfV" kind="show" id="Us9-Zd-lc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhT-mi-HE7">
+                                <rect key="frame" x="218" y="773" width="176" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Screen Shot 2022-08-03 at 10.34.35 AM"/>
+                                <connections>
+                                    <segue destination="6Nm-e0-8DC" kind="show" id="lGP-Dh-hDS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.94901960784313721" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -181,6 +203,8 @@
         <image name="Screen Shot 2022-08-02 at 2.48.45 PM" width="402" height="132"/>
         <image name="Screen Shot 2022-08-02 at 2.56.34 PM" width="896" height="300"/>
         <image name="Screen Shot 2022-08-02 at 2.58.10 PM" width="896" height="296"/>
+        <image name="Screen Shot 2022-08-03 at 10.34.20 AM" width="604" height="212"/>
+        <image name="Screen Shot 2022-08-03 at 10.34.35 AM" width="610" height="212"/>
         <image name="Screen Shot 2022-08-03 at 10.34.48 AM" width="1544" height="112"/>
         <image name="Screen Shot 2022-08-03 at 10.35.02 AM" width="1368" height="170"/>
         <systemColor name="systemBackgroundColor">
