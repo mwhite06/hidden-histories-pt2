@@ -16,22 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="bipoc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40a-pb-rYJ">
-                                <rect key="frame" x="279" y="370" width="43" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bipoc png" translatesAutoresizingMaskIntoConstraints="NO" id="gDX-oS-cIL">
+                                <rect key="frame" x="14" y="46" width="386" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vxR-98-oKq"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.82352941176470584" green="0.63137254901960782" blue="0.31764705882352939" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="UvD-vt-iiG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytb-0a-Ajr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-844" y="97"/>
+            <point key="canvasLocation" x="-844.92753623188412" y="96.428571428571431"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p0W-I1-DQ1">
@@ -91,22 +88,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="women in stem" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBl-mk-EjN">
-                                <rect key="frame" x="187" y="238" width="115" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wis png" translatesAutoresizingMaskIntoConstraints="NO" id="UZ9-Tu-BT9">
+                                <rect key="frame" x="24" y="51" width="366" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JgY-KT-hW4"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.19607843137254902" green="0.24705882352941178" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="nh0-7c-7zy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sVI-8D-KnK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="-567"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="-567.1875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -181,22 +175,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="lgbtq" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKd-tL-HGn">
-                                <rect key="frame" x="168" y="310" width="40" height="21"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lgbtq pngh" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-fZ-eEj">
+                                <rect key="frame" x="11" y="53" width="363" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jG2-Pf-sLc"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" cyan="0.31822283190934836" magenta="0.0" yellow="0.38300881458788499" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="b3M-d2-7tr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9uQ-Lv-Tqj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="727" y="93"/>
+            <point key="canvasLocation" x="726.08695652173924" y="92.410714285714278"/>
         </scene>
     </scenes>
     <resources>
@@ -207,6 +198,9 @@
         <image name="Screen Shot 2022-08-03 at 10.34.35 AM" width="610" height="212"/>
         <image name="Screen Shot 2022-08-03 at 10.34.48 AM" width="1544" height="112"/>
         <image name="Screen Shot 2022-08-03 at 10.35.02 AM" width="1368" height="170"/>
+        <image name="bipoc png" width="1354" height="566"/>
+        <image name="lgbtq pngh" width="1360" height="750"/>
+        <image name="wis png" width="1406" height="614"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
