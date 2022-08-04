@@ -1,5 +1,5 @@
 //
-//  bipocQuizViewController.swift
+//  lastPOCQViewController.swift
 //  hidden histories pt2
 //
 //  Created by Begüm Güven on 4.08.2022.
@@ -7,7 +7,8 @@
 
 import UIKit
 
-class bipocQuizViewController: UIViewController {
+class lastPOCQViewController: UIViewController {
+
     @IBOutlet weak var labelWrong: UILabel!
     
     override func viewDidLoad() {
@@ -16,17 +17,17 @@ class bipocQuizViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func rosaButton(_ sender: Any) {
+    
+    @IBAction func bButton(_ sender: Any) {
+        labelWrong.isHidden = false
+    }
+    @IBAction func cButton(_ sender: Any) {
+        labelWrong.isHidden = false
+    }
+    @IBAction func dButton(_ sender: Any) {
         labelWrong.isHidden = false
     }
     
-    @IBAction func shirleyButton(_ sender: Any) {
-        labelWrong.isHidden = false
-    }
-    
-    @IBAction func sojounerButton(_ sender: Any) {
-        labelWrong.isHidden = false
-    }
     /*
     // MARK: - Navigation
 

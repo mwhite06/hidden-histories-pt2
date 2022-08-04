@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		578CCD85289C04A000610AE8 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD84289C04A000610AE8 /* resourcesViewController.swift */; };
 		578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */; };
+		57BC28B3289C4289000F0FBB /* secondPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28B2289C4289000F0FBB /* secondPOCQViewController.swift */; };
+		57BC28B8289C4A90000F0FBB /* thirdPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28B7289C4A90000F0FBB /* thirdPOCQViewController.swift */; };
+		57BC28BD289C4B56000F0FBB /* fourPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28BC289C4B56000F0FBB /* fourPOCQViewController.swift */; };
+		57BC28C2289C4E58000F0FBB /* lastPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28C1289C4E58000F0FBB /* lastPOCQViewController.swift */; };
 		D420CD612899A37D00DBB4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD602899A37D00DBB4D2 /* AppDelegate.swift */; };
 		D420CD632899A37D00DBB4D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */; };
 		D420CD652899A37D00DBB4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD642899A37D00DBB4D2 /* ViewController.swift */; };
@@ -40,6 +44,10 @@
 /* Begin PBXFileReference section */
 		578CCD84289C04A000610AE8 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bipocQuizViewController.swift; sourceTree = "<group>"; };
+		57BC28B2289C4289000F0FBB /* secondPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPOCQViewController.swift; sourceTree = "<group>"; };
+		57BC28B7289C4A90000F0FBB /* thirdPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdPOCQViewController.swift; sourceTree = "<group>"; };
+		57BC28BC289C4B56000F0FBB /* fourPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourPOCQViewController.swift; sourceTree = "<group>"; };
+		57BC28C1289C4E58000F0FBB /* lastPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lastPOCQViewController.swift; sourceTree = "<group>"; };
 		D420CD5D2899A37D00DBB4D2 /* hidden histories pt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hidden histories pt2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D420CD602899A37D00DBB4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */,
 				D420CD642899A37D00DBB4D2 /* ViewController.swift */,
 				D420CD662899A37D00DBB4D2 /* Main.storyboard */,
+				57BC28C1289C4E58000F0FBB /* lastPOCQViewController.swift */,
+				57BC28BC289C4B56000F0FBB /* fourPOCQViewController.swift */,
+				57BC28B7289C4A90000F0FBB /* thirdPOCQViewController.swift */,
+				57BC28B2289C4289000F0FBB /* secondPOCQViewController.swift */,
 				578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */,
 				578CCD84289C04A000610AE8 /* resourcesViewController.swift */,
 				D420CD6C2899A37F00DBB4D2 /* Assets.xcassets */,
@@ -269,10 +281,14 @@
 			files = (
 				D420CD652899A37D00DBB4D2 /* ViewController.swift in Sources */,
 				578CCD85289C04A000610AE8 /* resourcesViewController.swift in Sources */,
+				57BC28B3289C4289000F0FBB /* secondPOCQViewController.swift in Sources */,
+				57BC28C2289C4E58000F0FBB /* lastPOCQViewController.swift in Sources */,
 				D420CD6B2899A37D00DBB4D2 /* hidden_histories_pt2.xcdatamodeld in Sources */,
 				578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */,
+				57BC28B8289C4A90000F0FBB /* thirdPOCQViewController.swift in Sources */,
 				D420CD612899A37D00DBB4D2 /* AppDelegate.swift in Sources */,
 				D420CD632899A37D00DBB4D2 /* SceneDelegate.swift in Sources */,
+				57BC28BD289C4B56000F0FBB /* fourPOCQViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
