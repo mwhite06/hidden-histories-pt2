@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		578CCD85289C04A000610AE8 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD84289C04A000610AE8 /* resourcesViewController.swift */; };
+		578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */; };
 		D420CD612899A37D00DBB4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD602899A37D00DBB4D2 /* AppDelegate.swift */; };
 		D420CD632899A37D00DBB4D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */; };
 		D420CD652899A37D00DBB4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D420CD642899A37D00DBB4D2 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		578CCD84289C04A000610AE8 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
+		578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bipocQuizViewController.swift; sourceTree = "<group>"; };
 		D420CD5D2899A37D00DBB4D2 /* hidden histories pt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hidden histories pt2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D420CD602899A37D00DBB4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 				D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */,
 				D420CD642899A37D00DBB4D2 /* ViewController.swift */,
 				D420CD662899A37D00DBB4D2 /* Main.storyboard */,
+				578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */,
+				578CCD84289C04A000610AE8 /* resourcesViewController.swift */,
 				D420CD6C2899A37F00DBB4D2 /* Assets.xcassets */,
 				D420CD6E2899A37F00DBB4D2 /* LaunchScreen.storyboard */,
 				D420CD712899A37F00DBB4D2 /* Info.plist */,
@@ -262,7 +268,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D420CD652899A37D00DBB4D2 /* ViewController.swift in Sources */,
+				578CCD85289C04A000610AE8 /* resourcesViewController.swift in Sources */,
 				D420CD6B2899A37D00DBB4D2 /* hidden_histories_pt2.xcdatamodeld in Sources */,
+				578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */,
 				D420CD612899A37D00DBB4D2 /* AppDelegate.swift in Sources */,
 				D420CD632899A37D00DBB4D2 /* SceneDelegate.swift in Sources */,
 			);
