@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -236,60 +237,17 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pff-wi-WnW">
-                                <rect key="frame" x="22" y="292" width="53" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal">
-                                    <string key="title">A)	
-</string>
-                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="aButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="pFc-bY-7tV"/>
-                                    <action selector="firstButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="TPn-WV-E9O"/>
-                                    <action selector="firstButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="teq-Wp-xWK"/>
-                                    <segue destination="3gM-n2-88f" kind="show" id="sE4-yJ-BaG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOj-bh-kTJ">
-                                <rect key="frame" x="30" y="380" width="34" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="B)">
-                                    <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="bButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="8je-8G-SmF"/>
-                                    <action selector="bButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="Dfw-7H-2Gq"/>
-                                    <action selector="secondButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="fLz-BV-vSV"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQ0-iO-q0O">
                                 <rect key="frame" x="28" y="452" width="38" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="C)">
-                                    <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="7JE-yT-SMs"/>
-                                    <action selector="cButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="XQ2-cR-i3D"/>
+                                    <action selector="cButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="D9i-PZ-aoS"/>
                                     <action selector="thirdButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="lxW-Dg-mBz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkU-FC-Kda">
-                                <rect key="frame" x="30" y="542" width="37" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="D)">
-                                    <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="dButto:" destination="qTa-EY-TUP" eventType="touchUpInside" id="bEJ-aF-1IX"/>
-                                    <action selector="dButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="iyR-Y6-5Yc"/>
-                                    <action selector="dButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="tmu-u1-mpK"/>
-                                    <action selector="lastButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="qu1-vh-tJu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8X-23-Quj">
@@ -333,13 +291,46 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lS-wY-l0u">
+                                <rect key="frame" x="33" y="306" width="35" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="A)">
+                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3gM-n2-88f" kind="show" id="7Nn-bB-vrX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPs-1t-RYM">
+                                <rect key="frame" x="33" y="379" width="35" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="B)">
+                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="q78-5Y-yLo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhc-iE-pl8">
+                                <rect key="frame" x="30" y="552" width="34" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <state key="normal" title="D)">
+                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dButton:" destination="C3f-Am-EPh" eventType="touchUpInside" id="AT9-wM-tzv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jxw-c4-CpD"/>
                         <color key="backgroundColor" red="0.78835475440000002" green="0.61839747430000003" blue="0.42956459520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="t8H-ys-Jfj"/>
                     <connections>
-                        <outlet property="labelWrong" destination="1wd-5w-41q" id="bkt-Cy-Ezo"/>
+                        <outlet property="labelWrong" destination="1wd-5w-41q" id="i0M-GW-una"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="afS-w4-Z8j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -387,12 +378,11 @@
                                 <state key="normal">
                                     <string key="title">A)	
 </string>
-                                    <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="aButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="eo8-Wr-c9N"/>
+                                    <action selector="aButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="YGf-bY-Kex"/>
                                     <action selector="firstButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="MSd-Vf-UQf"/>
-                                    <action selector="firstButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="lwk-LR-nA0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egx-b1-pwA">
@@ -403,7 +393,7 @@
                                     <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="bButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="byV-y6-EUO"/>
+                                    <action selector="bButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="06f-Kw-54c"/>
                                     <action selector="secondButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="buy-K7-i4i"/>
                                 </connections>
                             </button>
@@ -417,7 +407,7 @@
                                 <connections>
                                     <action selector="cButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="DuC-4f-mjH"/>
                                     <action selector="thirdButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="Wfl-ov-Ifz"/>
-                                    <segue destination="C3f-Am-EPh" kind="show" id="OnG-ID-waO"/>
+                                    <segue destination="C3f-Am-EPh" kind="show" id="3Jm-BL-hBe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bt7-PT-HJJ">
@@ -428,9 +418,8 @@
                                     <color key="titleColor" red="1" green="0.88361891339999998" blue="0.77007162259999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="dButto:" destination="qTa-EY-TUP" eventType="touchUpInside" id="Aqj-Wg-PLX"/>
+                                    <action selector="dButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="5oy-SH-aKL"/>
                                     <action selector="dButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="WIe-iC-jKq"/>
-                                    <action selector="dButton:" destination="qTa-EY-TUP" eventType="touchUpInside" id="x1R-0M-4i9"/>
                                     <action selector="lastButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="MlV-54-PaA"/>
                                 </connections>
                             </button>
@@ -481,8 +470,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="giG-pe-suM"/>
                     <connections>
-                        <outlet property="bButton" destination="5Zd-F3-O9U" id="fzT-2K-mTK"/>
-                        <outlet property="labelWrong" destination="yck-sb-7gF" id="n1a-Ba-s44"/>
+                        <outlet property="labelWrong" destination="yck-sb-7gF" id="msH-a2-qmr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8d-zg-shj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -540,7 +528,6 @@
                                     <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="firstButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="EBR-FQ-c3J"/>
                                     <action selector="firstButton:" destination="9DS-uG-gjt" eventType="touchUpInside" id="X6W-of-1zq"/>
                                 </connections>
                             </button>
@@ -553,7 +540,7 @@
                                 </state>
                                 <connections>
                                     <action selector="secondButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="Zuf-kt-PkR"/>
-                                    <segue destination="qTa-EY-TUP" kind="show" id="bM2-YU-Cs5"/>
+                                    <segue destination="qTa-EY-TUP" kind="show" id="mNs-QX-fMV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4A-2N-axh">
@@ -709,7 +696,6 @@
                                     <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="firstButton:" destination="9DW-d9-OjD" eventType="touchUpInside" id="uJG-JT-7NM"/>
                                     <segue destination="9DS-uG-gjt" kind="presentation" id="iZ8-kQ-Ess"/>
                                 </connections>
                             </button>
@@ -866,7 +852,6 @@ Cg
                     </view>
                     <navigationItem key="navigationItem" id="FMp-lj-O9J"/>
                     <connections>
-                        <outlet property="a" destination="hzA-Ok-iRb" id="aCF-sh-94e"/>
                         <outlet property="labelOne" destination="LEa-q5-9Z3" id="IUA-0P-RE5"/>
                     </connections>
                 </viewController>
@@ -2129,8 +2114,9 @@ Cgo
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="3Jm-BL-hBe"/>
         <segue reference="lBH-fx-27j"/>
-        <segue reference="sE4-yJ-BaG"/>
+        <segue reference="7Nn-bB-vrX"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Claudette" width="666" height="1438"/>

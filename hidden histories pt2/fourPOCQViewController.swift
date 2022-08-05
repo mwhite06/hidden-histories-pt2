@@ -20,17 +20,16 @@ class fourPOCQViewController: UIViewController {
     @IBAction func aButton(_ sender: Any) {
         labelWrong.isHidden = false
     }
-    
     @IBAction func bButton(_ sender: Any) {
         labelWrong.isHidden = false
     }
-    
     @IBAction func dButton(_ sender: Any) {
         labelWrong.isHidden = false
     }
     
-    /*
-    // MARK: - Navigation
+       
+    
+    /*    // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
