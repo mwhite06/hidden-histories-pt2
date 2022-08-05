@@ -8,10 +8,7 @@
 import UIKit
 
 class wosquiz1: UITableViewController {
-    @IBOutlet weak var greenhouse: UIButton!
-    @IBOutlet weak var keystone: UIButton!
-    @IBOutlet weak var tyndall: UIButton!
-    @IBOutlet weak var force: UIButton!
+   
     @IBOutlet weak var nope: UILabel!
     @IBOutlet weak var right: UILabel!
 

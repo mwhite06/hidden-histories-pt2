@@ -299,7 +299,7 @@
                                     <color key="titleColor" red="0.99135800060000001" green="1" blue="0.74465067080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="3gM-n2-88f" kind="show" id="7Nn-bB-vrX"/>
+                                    <segue destination="3gM-n2-88f" kind="show" id="Z9P-od-MlK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZPs-1t-RYM">
@@ -1512,10 +1512,10 @@ Cgo
             </objects>
             <point key="canvasLocation" x="-2.8985507246376816" y="-1237.5"/>
         </scene>
-        <!--Wosquiz2-->
+        <!--WosQUIZ2 View Controller-->
         <scene sceneID="ub4-Sz-pad">
             <objects>
-                <viewController id="HZj-RX-dGi" customClass="wosquiz2" customModule="hidden_histories_pt2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HZj-RX-dGi" customClass="wosQUIZ2ViewController" customModule="hidden_histories_pt2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MkZ-MN-kdQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1541,24 +1541,36 @@ Cgo
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="aButton:" destination="HZj-RX-dGi" eventType="touchUpInside" id="zL5-Lj-m5g"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRE-Rd-7zW">
                                 <rect key="frame" x="11" y="421" width="45" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bButton:" destination="HZj-RX-dGi" eventType="touchUpInside" id="e7Q-tl-uZA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eh9-DI-UDr">
                                 <rect key="frame" x="11" y="523" width="46" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="cButton:" destination="HZj-RX-dGi" eventType="touchUpInside" id="nGV-Jm-7rk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYK-cP-pzb">
                                 <rect key="frame" x="11" y="624" width="46" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dButton:" destination="HZj-RX-dGi" eventType="touchUpInside" id="BvS-Ba-OjL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ozc-IM-Ytn">
                                 <rect key="frame" x="109" y="729" width="196" height="35"/>
@@ -1602,15 +1614,19 @@ Cgo
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="f5j-TH-2a0"/>
+                    <connections>
+                        <outlet property="nope" destination="4vH-9h-p8K" id="Gfy-Wy-jlO"/>
+                        <outlet property="right" destination="Ozc-IM-Ytn" id="qpJ-kG-ujR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dF0-44-dh0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="711.59420289855075" y="-1235.4910714285713"/>
         </scene>
-        <!--Wosquiz3-->
+        <!--WosQUIZ3 View Controller-->
         <scene sceneID="Ge7-fH-S0l">
             <objects>
-                <viewController id="0HP-Cq-DLU" customClass="wosquiz3" customModule="hidden_histories_pt2" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0HP-Cq-DLU" customClass="wosQUIZ3ViewController" customModule="hidden_histories_pt2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hyb-M6-4VR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1624,24 +1640,36 @@ Cgo
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="aButton:" destination="0HP-Cq-DLU" eventType="touchUpInside" id="71d-Wx-pLg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuq-OF-wgC">
                                 <rect key="frame" x="12" y="427" width="45" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bButton:" destination="0HP-Cq-DLU" eventType="touchUpInside" id="TPd-gW-auW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="541-8Z-P9e">
                                 <rect key="frame" x="11" y="531" width="46" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="cButton:" destination="0HP-Cq-DLU" eventType="touchUpInside" id="EiZ-hO-81c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1G-fY-ugX">
                                 <rect key="frame" x="11" y="624" width="46" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="dButton:" destination="0HP-Cq-DLU" eventType="touchUpInside" id="2tu-fY-AZZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TH2-2x-tIm">
                                 <rect key="frame" x="76" y="694" width="262" height="35"/>
@@ -1687,6 +1715,10 @@ Cgo
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="aIO-f8-E7j"/>
+                    <connections>
+                        <outlet property="nope" destination="TH2-2x-tIm" id="mOG-cZ-eFQ"/>
+                        <outlet property="right" destination="vCN-iU-qRr" id="aFX-y5-BSX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Jn-BY-H6d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1761,7 +1793,7 @@ Cgo
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="take a quiz"/>
                                 <connections>
-                                    <segue destination="hB6-nv-5W1" kind="show" id="5MN-nV-oJ2"/>
+                                    <segue destination="hB6-nv-5W1" kind="show" id="JQc-ww-qLg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2114,9 +2146,9 @@ Cgo
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3Jm-BL-hBe"/>
+        <segue reference="JQc-ww-qLg"/>
         <segue reference="lBH-fx-27j"/>
-        <segue reference="7Nn-bB-vrX"/>
+        <segue reference="Z9P-od-MlK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Claudette" width="666" height="1438"/>

@@ -12,6 +12,8 @@
 		4F609FD8289CC50B00FA2430 /* wosquiz3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F609FD7289CC50B00FA2430 /* wosquiz3.swift */; };
 		578CCD85289C04A000610AE8 /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD84289C04A000610AE8 /* resourcesViewController.swift */; };
 		578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */; };
+		579E5F8F289D593E00648611 /* wosQUIZ2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E5F8E289D593E00648611 /* wosQUIZ2ViewController.swift */; };
+		579E5F94289D5C3700648611 /* wosQUIZ3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579E5F93289D5C3700648611 /* wosQUIZ3ViewController.swift */; };
 		57BC28B3289C4289000F0FBB /* secondPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28B2289C4289000F0FBB /* secondPOCQViewController.swift */; };
 		57BC28B8289C4A90000F0FBB /* thirdPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28B7289C4A90000F0FBB /* thirdPOCQViewController.swift */; };
 		57BC28BD289C4B56000F0FBB /* fourPOCQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BC28BC289C4B56000F0FBB /* fourPOCQViewController.swift */; };
@@ -50,6 +52,8 @@
 		4F609FD7289CC50B00FA2430 /* wosquiz3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wosquiz3.swift; sourceTree = "<group>"; };
 		578CCD84289C04A000610AE8 /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		578CCD89289C135F00610AE8 /* bipocQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bipocQuizViewController.swift; sourceTree = "<group>"; };
+		579E5F8E289D593E00648611 /* wosQUIZ2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wosQUIZ2ViewController.swift; sourceTree = "<group>"; };
+		579E5F93289D5C3700648611 /* wosQUIZ3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wosQUIZ3ViewController.swift; sourceTree = "<group>"; };
 		57BC28B2289C4289000F0FBB /* secondPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPOCQViewController.swift; sourceTree = "<group>"; };
 		57BC28B7289C4A90000F0FBB /* thirdPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdPOCQViewController.swift; sourceTree = "<group>"; };
 		57BC28BC289C4B56000F0FBB /* fourPOCQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourPOCQViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				D420CD622899A37D00DBB4D2 /* SceneDelegate.swift */,
 				D420CD642899A37D00DBB4D2 /* ViewController.swift */,
 				D420CD662899A37D00DBB4D2 /* Main.storyboard */,
+				579E5F93289D5C3700648611 /* wosQUIZ3ViewController.swift */,
+				579E5F8E289D593E00648611 /* wosQUIZ2ViewController.swift */,
 				4F609FD7289CC50B00FA2430 /* wosquiz3.swift */,
 				4F609FD5289CC4F500FA2430 /* wosquiz2.swift */,
 				4F609FD3289CC4D800FA2430 /* wosquiz1.swift */,
@@ -294,7 +300,9 @@
 				57BC28C2289C4E58000F0FBB /* lastPOCQViewController.swift in Sources */,
 				D420CD6B2899A37D00DBB4D2 /* hidden_histories_pt2.xcdatamodeld in Sources */,
 				578CCD8A289C135F00610AE8 /* bipocQuizViewController.swift in Sources */,
+				579E5F8F289D593E00648611 /* wosQUIZ2ViewController.swift in Sources */,
 				4F609FD8289CC50B00FA2430 /* wosquiz3.swift in Sources */,
+				579E5F94289D5C3700648611 /* wosQUIZ3ViewController.swift in Sources */,
 				57BC28B8289C4A90000F0FBB /* thirdPOCQViewController.swift in Sources */,
 				D420CD612899A37D00DBB4D2 /* AppDelegate.swift in Sources */,
 				4F609FD4289CC4D800FA2430 /* wosquiz1.swift in Sources */,
