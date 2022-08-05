@@ -9,6 +9,7 @@ import UIKit
 
 class secondPOCQViewController: UIViewController {
 
+    @IBOutlet weak var a: UIButton!
     @IBOutlet weak var labelOne: UILabel!
     
     override func viewDidLoad() {
