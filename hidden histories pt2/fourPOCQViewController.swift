@@ -28,6 +28,7 @@ class fourPOCQViewController: UIViewController {
     @IBAction func dButton(_ sender: Any) {
         labelWrong.isHidden = false
     }
+    
     /*
     // MARK: - Navigation
 

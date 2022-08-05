@@ -9,10 +9,9 @@ import UIKit
 
 class secondPOCQViewController: UIViewController {
 
-    @IBOutlet weak var a: UIButton!
     @IBOutlet weak var labelOne: UILabel!
     
-    override func viewDidLoad() {
+        override func viewDidLoad() {
         labelOne.isHidden = true
         
         super.viewDidLoad()
